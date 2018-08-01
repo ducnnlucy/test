@@ -1,6 +1,6 @@
 <?php 
 	
-class ClassA
+class ClassAmaster1
 {
 	/**
      * @var Document Model
@@ -765,7 +765,7 @@ class ClassA
             $main_post_content = implode("\r", $contentCompare);
             $revision_post = implode("\r", $content);
             $compareTable = $this->compareSupport->compare($main_post_content, $revision_post);
-            $xtring =  $this->compareSupport->toTable($compareTable, '', '', trans('site.content_revision'));
+            $xtringmaster2 =  $this->compareSupport->toTable($compareTable, '', '', trans('site.content_revision'));
         }
 
         return $string;
