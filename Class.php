@@ -1,7 +1,22 @@
-<?php 
+<?php  // ok
+	   // Ok ne
 	
 class ClassAmaster1
 {
+	private $a1;
+	private $a2;
+	
+	private $a3;
+	private $a4;
+	
+	/**
+	 * commit 3
+	 */
+	private $a5;
+	private $a6;
+	
+	private $a7;
+	
 	/**
      * @var Document Model
      */
